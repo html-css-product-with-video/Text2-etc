@@ -38,8 +38,18 @@ p{
 .section-p1{
     padding: 40px 80px;
 }
-section-m1{
+.section-m1{
     margin: 40px 0;
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s ease;
 }
 body{
     width: 100%;
@@ -238,6 +248,36 @@ body{
     right: 10px;
 }
 
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: url('./img/banner/b2.jpg');
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+#banner h2 span{
+    color: #ef3636;
+}
+#banner button:hover{
+    background: #088178;
+    color: #fff;
+}
 
 /* shop page  */
 
