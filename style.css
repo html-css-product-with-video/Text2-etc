@@ -51,6 +51,16 @@ button.normal{
     cursor: pointer;
     transition: .2s ease;
 }
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: .2s ease;
+}
 body{
     width: 100%;
 }
@@ -277,6 +287,94 @@ body{
 #banner button:hover{
     background: #088178;
     color: #fff;
+}
+#sm-banner{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#sm-banner > * {
+    flex: 1;
+}
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+
+    background: url('./img/banner/b17.jpg');
+    min-width: 580px;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sm-banner .banner-box2{
+    background: url('./img/banner/b10.jpg')  
+}
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    background: url('./img/banner/b7.jpg');
+    min-width: 30%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner3 .banner-box2{
+    background: url('/img/banner/b4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+#banner3 .banner-box3{
+    background: url('/img/banner/b18.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;  
+}
+#banner3 h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+}
+#banner3 h3{
+    color: #ec544e;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 /* shop page  */
