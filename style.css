@@ -132,6 +132,7 @@ body{
     background: url('./img/hero4.png');
     background-repeat: no-repeat;
     background-position: top 25% right 0;
+    background-size: cover;
     padding: 0 80px;
 
     display: flex;
