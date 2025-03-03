@@ -29,29 +29,49 @@
         </div>
     </section>
 
-    <section id="page-header">
-        <h2>#sayHome</h2>
-        <p>Save more with coupons & up to 70% off</p>
-    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="./img/products/f1.jpg" alt="product" width="100%" id="mainImg">
 
-    <section id="product1" class="section-p1">
-
-        <div class="pro-container">
-            <!-- here display product  -->
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="./img/products/f1.jpg" alt="product" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/products/f2.jpg" alt="product" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/products/f3.jpg" alt="product" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/products/f4.jpg" alt="product" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Home / T-Shirt</h6>
+            <h4>Man Fashion T-Shirt</h4>
+            <h2>$208.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dignissimos amet quis enim atque qui facilis nobis quo maiores sapiente, delectus ipsum sint accusamus eaque cupiditate debitis corporis veniam quisquam aut? Quibusdam itaque non unde delectus ut quam, excepturi facere corrupti assumenda temporibus, pariatur ipsa in culpa officia rem consequuntur!</span>
         </div>
     </section>
 
     <section id="product1" class="section-p1">
-
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design </p>
         <div class="pro-container products-arrivals">
           <!-- here display arrivals products              -->
         </div>
-    </section>
-
-    <section id="pagination" class="section-p1">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
     </section>
 
     <section id="newsletter" class="section-p1 section-m1">
@@ -114,6 +134,24 @@
             <p>&copy;2025 E-commerce</p>
         </div>
     </footer>
+
+    <script>
+        let mainImg = document.getElementById('mainImg');
+        let smallIMg = document.getElementsByClassName('small-img');
+        
+        smallIMg[0].onclick = function(){
+            mainImg.src = smallIMg[0].src;
+        }
+        smallIMg[1].onclick = function(){
+            mainImg.src = smallIMg[1].src;
+        }
+        smallIMg[2].onclick = function(){
+            mainImg.src = smallIMg[2].src;
+        }
+        smallIMg[3].onclick = function(){
+            mainImg.src = smallIMg[3].src;
+        }
+    </script>
 
     <!-- main javascript file  -->
      <script src="app.js"></script>
